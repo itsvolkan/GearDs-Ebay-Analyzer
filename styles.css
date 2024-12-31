@@ -1,0 +1,90 @@
+/*
+  Author: Volkan Aydogdu
+  Project: eBay Analyzer Chrome Extension
+  Description: Styles the user interface for eBay Analyzer.
+  Date: 01/01/2025
+  Contact: itswolkan@gmail.com
+*/
+
+/* General styling for the panel */
+#analysisPanel {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  max-height: 400px;
+  overflow-y: auto;
+  background-color: #ffffff;
+  border-top: 2px solid #f4a261;
+  box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  z-index: 10000;
+}
+
+/* Close button styling */
+#analysisPanel button {
+  float: right;
+  margin-bottom: 10px;
+  background-color: #d9534f;
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#analysisPanel button:hover {
+  background-color: #c9302c;
+}
+
+/* Table styling */
+#analysisPanel table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+#analysisPanel th,
+#analysisPanel td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+/* Header styling */
+#analysisPanel thead th {
+  background-color: #f4a261;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Alternate row colors */
+#analysisPanel tbody tr:nth-child(odd) {
+  background-color: #fdf1e8;
+}
+
+#analysisPanel tbody tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+/* Links inside the table */
+#analysisPanel a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+#analysisPanel a:hover {
+  color: #0056b3;
+}
+
+/* Images inside the table */
+#analysisPanel img {
+  width: 50px;
+  height: auto;
+  border-radius: 4px;
+}
