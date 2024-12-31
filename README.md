@@ -11,7 +11,11 @@
 
 ## Installation
 
-....
+1. Download the [eBay Analyzer extension](URL_to_extension_file) (or alternatively, clone this repository).
+2. Open Google Chrome and navigate to `chrome://extensions/`.
+3. Enable **Developer Mode** (toggle in the top right).
+4. Click **Load unpacked** and select the folder where you downloaded the extension files.
+5. The extension icon should now appear in your Chrome toolbar.
 
 ## How to Use
 
